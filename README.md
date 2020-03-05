@@ -25,7 +25,7 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/RBFjpMX.png)
+![](https://i.imgur.com/Xd2JMrb.png)
 > 開發人員工具目的是用於開發環境，而非正式環境
 
 ![](https://i.imgur.com/PC2snG5.png)
