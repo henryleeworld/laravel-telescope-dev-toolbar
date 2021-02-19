@@ -12,7 +12,7 @@ $ git clone
 ```sh
 $ composer install
 ```
-- 產⽣ Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
+- 產生 Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
 ```sh
 $ php artisan key:generate
 ```
@@ -25,8 +25,8 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/kvOC5t8.png)
+![](https://i.imgur.com/8fqOg7R.png)
 > 開發人員工具目的是用於開發環境，而非正式環境
 
-![](https://i.imgur.com/VSnRfgn.png)
+![](https://i.imgur.com/1aeLaEt.png)
 > 每一個請求都會轉成 Illuminate\Http\Request 類別物件
