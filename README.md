@@ -1,4 +1,4 @@
-# Laravel 8 望遠鏡開發人員工具
+# Laravel 9 望遠鏡開發人員工具
 
 引入 fruitcake 的 laravel-telescope-toolbar 套件來擴增基於 Symphony 網頁分析器的實作開發調試工具。
 
@@ -25,8 +25,8 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/8fqOg7R.png)
+![](https://i.imgur.com/qSzaVP2.png)
 > 開發人員工具目的是用於開發環境，而非正式環境
 
-![](https://i.imgur.com/1aeLaEt.png)
+![](https://i.imgur.com/1u41DQd.png)
 > 每一個請求都會轉成 Illuminate\Http\Request 類別物件
