@@ -1,4 +1,4 @@
-# Laravel 10 望遠鏡開發人員工具
+# Laravel 11 望遠鏡開發人員工具
 
 引入 fruitcake 的 laravel-telescope-toolbar 套件來擴增基於 Symphony 網頁分析器的實作開發調試工具。
 
@@ -16,17 +16,17 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
-- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移，並執行資料庫填充（如果要測試的話）。
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
 ```sh
-$ php artisan migrate --seed
+$ php artisan migrate
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/dtNjm8G.png)
+![](https://i.imgur.com/0TftObN.png)
 > 開發人員工具目的是用於開發環境，而非正式環境
 
-![](https://i.imgur.com/ctFsVrQ.png)
+![](https://i.imgur.com/KEmfBAN.png)
 > 每一個請求都會轉成 Illuminate\Http\Request 類別物件
